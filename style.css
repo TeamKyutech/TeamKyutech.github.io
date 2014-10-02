@@ -1,7 +1,6 @@
-body {font-family Times New Roman;background-color:#fffff
-    ;background-image: url(http://openwetware.org/images/5/57/05l.jpg)}
+body {font-family Times New Roman;background-color:#fffff}
 
-header {background-color:}
+header {background-color:;background-image: url(http://openwetware.org/images/5/57/05l.jpg)}
 h0 {font-size:16px;Color:#ffffff;border-bottom:solid 2px white}
 header h1 {font-family:Georgia;font-size: 30px;Color:#ffffff}
 header h1 img {vertical-align: -10px}
