@@ -5,9 +5,9 @@
 	padding:0;
 }
 body {
-	background:#000000;
-	font-family:'Times New Roman';
-    	font-size:16px;
+	background:#000000 url(../img/bg_contents.png) top center repeat-y fixed;
+    font-family:'Times New Roman';
+    font-size:16px;
 	color:#333333;
 	letter-spacing:0.1em;
 }
@@ -26,13 +26,12 @@ a img {
 
 
 #wrap {
-	width:1100px;
+	width:980px;
 	margin:0 auto;
 }
 
 #side {
-    margin:0px 300px 300px 0px;
-        position:fixed;
+    position:fixed;
     top:0px;
 	width:220px;
 	float:left;
@@ -53,16 +52,11 @@ a img {
 	color:#CCCCCC;
 	line-height:1.8em;
 }
-#main_content {
-    background:url(../img/bg_contents.png) top center repeat-y fixed;
-     width:860px;
-
-    float:right;
-}
 
 #main_area {
-    width:810px;
-	margin:10px 20px 0 20px;
+
+    width:720px;
+	margin:10px 20px 0 0;
 	float:right;
 }
 *html #main_area {
@@ -72,7 +66,8 @@ a img {
 }
 
 #main {
-  height: 350px;
+ url(../img/bg_contents.png) top center repeat-y fixed;
+     height: 320px;
     padding:0px 0px 10px 200px;
     background:#000000;
 }
@@ -114,8 +109,7 @@ margin:20px 50px 0px auto;
 #contents_02 #navi_02 a,
 #contents_03 #navi_03 a,
 #contents_04 #navi_04 a,
-#contents_05 #navi_05 a,
-#contents_06 #navi_06 a  {
+#contents_05 #navi_05 a {
 	background-position:0 -35px;
 	font-weight:bold;
 }
@@ -152,14 +146,14 @@ margin:5px 0px 0px 0px;
 }
 .abst_top {
 	clear:both;
-	width:840px;
+	width:720px;
 	height:35px;
 	margin-top:20px;
 	background:url(../img/bg_tit.png) no-repeat;
 	color:#FFFFFF;
 }
 .abst_top h2 {
-	width:360px;
+	width:340px;
 	padding:0px 0 0 10px;
 	float:left;
 	font-size:24px;
@@ -169,58 +163,54 @@ margin:5px 0px 0px 0px;
 
 
 .abst_text1 {
-    margin:10px 0px 20px 0px;
+    margin:10px 10px 10px 0px;
   font-size:16px;
     line-height:1.6em;
     padding-top:8px;
-    padding-bottom:0px;
+    clear:both;
+   Color:#FFFFFF
+        }
+
+.design_img1 {
+ margin-top:10px;
+ float:left;
+        }
+.design_text1 {
+ margin:0px 0px 0px 10px;
+     width:360px;
+    float:left;
+  font-size:16px;
+    line-height:1.6em;
+
     Color:#FFFFFF
         }
+        
+.design_img2 {
+ margin-top:20px;
+ float:right;
+ background:#FFFFFF;
+         }
+.design_text2 {
+ margin:10px 0px 0px 10px;
+     width:360px;
+    float:right;
+  font-size:16px;
+    line-height:1.6em;
+
+    Color:#FFFFFF
+        }
+        
 .movie_top {
 	clear:both;
-	width:840px;
+	width:720px;
 	height:35px;
 	margin-top:0px;
 	background:url(../img/bg_tit.png) no-repeat;
 	color:#FFFFFF;
 }
+
 .movie_top h2 {
-	width:340px;
-	padding:7px 0 0 10px;
-	float:left;
-	font-size:24px;
-	font-weight:bold;
-	line-height:1.5em;
-}
-
-.info {
-	width:840px;
-	margin-right:-20px;
-	padding:2px 10px 0 10px;
-	padding:2px 10px 10px 10px;
-	list-style-type:none;
-	background:url(../img/bg_tit.png) repeat-y;
-}
-.info li {
-	width:750px;
-	height:300px;
-	margin:0 10px 10px 0;
-	padding:10px;
-	float:left;
-	background:#FFFFFF;
-	overflow:hidden;
-}
-
-.tit_top {
-	clear:both;
-	width:840px;
-	height:35px;
-	margin-top:20px;
-	background:url(../img/bg_tit.png) no-repeat;
-	color:#FFFFFF;
-}
-.tit_top h2 {
-	width:340px;
+	width:540px;
 	padding:0px 0 0 10px;
 	float:left;
 	font-size:24px;
@@ -228,41 +218,27 @@ margin:5px 0px 0px 0px;
 	line-height:1.5em;
 }
 
-.pickup {
-	clear:both;
-	width:840px;
-	margin-right:-40px;
+.info {
+	width:700px;
+	margin-right:-20px;
+	padding:2px 10px 0 10px;
+	/padding:2px 10px 10px 10px;
 	list-style-type:none;
+	background:url(../img/bg_info.png) repeat-y;
 }
-.pickup li {
 
-	margin:10px 20px 0px 20px;
-	padding:0px 20px 10px  20px;
+
+.info li img{
+width:700px;
+	margin:10px 10px 10px 0px;
+	padding:10px;
 	float:left;
-	
+
 	overflow:hidden;
 }
 
-.photo3{
-  margin-top:30px;
+#mathjax(color: red; text-align: center; font-size: 50%)
 
-    }
-    
-.pickup2 {
-	clear:both;
-	width:840px;
-	margin-right:-40px;
-	list-style-type:none;
-}
-
-.pickup2 li {
-    font-size:16px;
-    margin:0px 35px 20px 20px;
-	padding:0px 20px 10px  20px;
-	float:left;
-	
-	overflow:hidden;
-}
 #footer {
 	clear:both;
 	height:80px;
