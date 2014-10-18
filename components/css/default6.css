@@ -32,7 +32,8 @@ a img {
 
 #side {
     margin:0px 300px 300px 0px;
-        position:fixed;
+    padding:10px;
+    position:fixed;
     top:0px;
 	width:220px;
 	float:left;
@@ -43,8 +44,16 @@ a img {
 	margin:20px auto 0 auto;
     color:#CCCCCC;    
 }
+#kyutech{
+     margin:10px;
+    float:left;
+}
+#kyutechtext1{
+    font-size:15px;
+     margin:12px;
+      color:#FFFFFF;
 
-
+}
 
 #side .copy {
 	width:180px;
@@ -123,7 +132,7 @@ margin:20px 50px 0px auto;
 	clear:both;
 	width:150px;
 	border:solid 1px #666666;
-	margin:40px auto;
+	margin:0px ;
 	padding:15px;
 	background:#333333 url(../img/bg_side_prof.png) repeat;
 	color:#FFFFFF;
@@ -146,10 +155,7 @@ margin:5px 0px 0px 0px;
 	color:#CCCCCC;
 	line-height:1.6em;
 }
-#side_prof .btn_more {
-	margin-top:10px;
-	text-align:right;
-}
+
 .abst_top {
 	clear:both;
 	width:840px;
@@ -176,6 +182,11 @@ margin:5px 0px 0px 0px;
     padding-bottom:0px;
     Color:#FFFFFF
         }
+        
+.abst_text1 h2{
+
+
+}
 .movie_top {
 	clear:both;
 	width:840px;

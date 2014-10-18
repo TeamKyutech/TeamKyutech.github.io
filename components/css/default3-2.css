@@ -38,6 +38,16 @@ a img {
 	float:left;
 	background:url(../img/bg_logo.png) no-repeat top right;
 }
+#kyutech{
+     margin:10px;
+    float:left;
+}
+#kyutechtext1{
+    font-size:15px;
+     margin:12px;
+      color:#FFFFFF;
+
+}
 #side h1 {
 	width:180px;
 	margin:20px auto 0 auto;

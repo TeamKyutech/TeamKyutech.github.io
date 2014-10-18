@@ -38,6 +38,11 @@ a img {
 	float:left;
 	background:url(../img/bg_logo.png) no-repeat top right;
 }
+#side h1 {
+	width:180px;
+	margin:20px auto 0 auto;
+    color:#CCCCCC;    
+}
 #kyutech{
      margin:10px;
     float:left;
@@ -48,14 +53,6 @@ a img {
       color:#FFFFFF;
 
 }
-#side h1 {
-    clear:both;
-	width:180px;
-	margin:10px auto 0 auto;
-    color:#CCCCCC;    
-}
-
-
 
 #side .copy {
 	width:180px;
@@ -135,7 +132,7 @@ margin:20px 50px 0px auto;
 	width:150px;
 	border:solid 1px #666666;
 	margin:40px auto;
-	padding:15px;
+	padding:15px 15px 0px 15px;
 	background:#333333 url(../img/bg_side_prof.png) repeat;
 	color:#FFFFFF;
 }
@@ -157,10 +154,7 @@ margin:5px 0px 0px 0px;
 	color:#CCCCCC;
 	line-height:1.6em;
 }
-#side_prof .btn_more {
-	margin-top:10px;
-	text-align:right;
-}
+
 .abst_top {
 	clear:both;
 	width:840px;
@@ -276,7 +270,7 @@ margin:5px 0px 0px 0px;
 }
 #footer {
 	clear:both;
-	height:80px;
+	height:40px;
 
 }
 
@@ -284,6 +278,49 @@ margin:5px 0px 0px 0px;
 	font-size:10px;
 	font-style:normal;
 	text-align:center;
+	color:#FFFFFF;
+}
+
+#name {
+	width:218px;
+	margin-left:2px;
+	list-style-type:none;
+}
+
+#name li {
+	width:230px;
+	height:35px;
+}
+
+#name li a {
+
+	width:23opx;
+	height:27px;
+	padding:8px 0 0 20px;
+	line-height:1.6em;
+
+	color:#FFFFFF;
+}
+
+#name3 {
+	width:218px;
+    height:120px;
+    margin-left:2px;
+	list-style-type:none;
+}
+
+#name3 li {
+	width:230px;
+	height:35px;
+}
+
+#name3 li a {
+
+	width:23opx;
+	height:27px;
+	padding:8px 0 0 20px;
+	line-height:1.6em;
+
 	color:#FFFFFF;
 }
 

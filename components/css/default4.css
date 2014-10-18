@@ -49,9 +49,8 @@ a img {
 
 }
 #side h1 {
-    clear:both;
 	width:180px;
-	margin:10px auto 0 auto;
+	margin:20px auto 0 auto;
     color:#CCCCCC;    
 }
 
@@ -180,7 +179,8 @@ margin:5px 0px 0px 0px;
 
 
 .abst_text1 {
-    margin:10px 0px 20px 0px;
+ clear:both;
+     margin:10px 0px 20px 0px;
   font-size:16px;
     line-height:1.6em;
     padding-top:8px;
@@ -274,6 +274,7 @@ margin:5px 0px 0px 0px;
 	
 	overflow:hidden;
 }
+
 #footer {
 	clear:both;
 	height:80px;
@@ -286,6 +287,167 @@ margin:5px 0px 0px 0px;
 	text-align:center;
 	color:#FFFFFF;
 }
+.experiment_img1_back{
+width:370px;
+height:300px;
+background-repeat: repeat;
+ background:url(../img/bg_tit.png);
+float:left;
+
+margin:10px 0px 10px 0px;
+   }
+
+.experiment_img1 {
+
+margin:10px;
+ float:left;
+
+         }
+.experiment_img1 h4{
+
+margin:10px 0px 0px 55px;
+
+         }
+.experiment_text1 {
+    margin:0px 0px 0px 20px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+        }
+
+.experiment_img2_back{
+width:370px;
+height:300px;
+background-repeat: repeat;
+ background:url(../img/bg_tit.png);
+float:left;
+ clear:both;
+ margin:10px 0px 10px 0px;
+   }
+.experiment_img2 {
+
+margin:10px;
+ float:left;
+
+         }
+
+.experiment_img2 h4{
+
+margin:10px 0px 0px 55px;
+
+         }
+.experiment_text2 {
+    margin:0px 0px 0px 20px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+        }
+
+.experiment_img3_back{
+width:370px;
+height:300px;
+background-repeat: repeat;
+ background:url(../img/bg_tit.png);
+float:left;
+ clear:both;
+ margin:10px 0px 20px 230px;
+   }
+.experiment_img3 {
+
+margin:10px;
+
+
+         }
+.experiment_img3 h4{
+
+margin:10px 0px 0px 60px;
+
+         }
+.experiment_text3 {
+    margin:0px 0px 0px 40px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+        }
+        
+        
+.experiment_img4_back{
+width:370px;
+height:300px;
+background-repeat: repeat;
+ background:url(../img/bg_tit.png);
+float:left;
+ clear:both;
+ margin:0px 0px 10px 0px;
+   }
+.experiment_img4 {
+
+margin:10px;
+ float:left;
+
+         }
+
+.experiment_img4 h4{
+
+margin:10px 0px 0px 55px;
+
+         }
+.experiment_text4 {
+    margin:0px 0px 0px 20px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+        }
+        
+.experiment_img5_back{
+width:370px;
+height:300px;
+background-repeat: repeat;
+ background:url(../img/bg_tit.png);
+float:left;
+ clear:both;
+ margin:0px 0px 20px 0px;
+   }
+.experiment_img5 {
+
+margin:10px;
+ float:left;
+
+         }
+
+.experiment_img5 h4{
+
+margin:10px 0px 0px 55px;
+
+         }
+.experiment_text5 {
+    margin:0px 0px 0px 20px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+        }
+
+ .abst_text4 {
+ clear:both;
+     margin:0px 0px 0px 10px;
+  font-size:16px;
+    line-height:1.6em;
+    padding-top:20px;
+    padding-bottom:0px;
+    Color:#FFFFFF
+        }
+        
+        
 
 
 /* クリアフィックスハック */

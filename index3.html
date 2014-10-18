@@ -9,13 +9,12 @@
 <title>BIOMOD2014/TeamKyutech</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link href="components/css/default3-2.css" rel="stylesheet" type="text/css" />
+<link href="components/css/default3-1.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="components/css/lightbox.css" type="text/css">
 <script src="components/js/prototype.js" type="text/javascript"></script>
 <script src="components/js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
 <script src="components/js/lightbox.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" ></script>
-
 
 <link rel="stylesheet" type="text/css" href="components/css/spacegallery.css" />
 <script src="components/js/eye.js" type="text/javascript" ></script>
@@ -44,7 +43,6 @@
 
 <script type="text/javascript">
     
-    
         $(function($) {
                     var tab = $('#side'),
                     offset = tab.offset();
@@ -65,15 +63,18 @@
 <body id="contents_03">
 	<div id="wrap">
 		<div id="side">
-            
-			<img src="img/newlogo.gif" width="50" height="50" alt="kyutechlog"/>
+            <img id=kyutech src="img/newlogo.gif" width="50" height="50" alt="kyutechlog"/>
+			<div id=kyutechtext1>
+                
+                Kyushu <br>Institute of <br>Technology
+            </div>
 			<h1>Team Kyutech</h1>
 		
 			<p class="copy"></p>
             
 			<ul id="navi">
 				<li id="navi_01"><a href="index.html">Top</a></li>
-				<li id="navi_02"><a href="index2.html">Introduction</a></li>
+				<li id="navi_02"><a href="index2.html">Introduction and Theory </a></li>
 				<li id="navi_03"><a href="index3.html">Design</a></li>
 				<li id="navi_04"><a href="index4.html">Experiment</a></li>
                 <li id="navi_05"><a href="index5.html">Team</a></li>
@@ -85,7 +86,7 @@
 				<img src="img/kyutech_images.png" width="150" height="150" alt="プロフィール写真" />
 				<p class="name">Address</p>
 				<p class="text">680-4, Kawazu, Iizuka, Fukuoka, Japan</p>
-				<p class="btn_more"><a href="profile.html"><img src="components/img/btn_more.png" width="52" height="20" alt="MORE" /></a></p>
+			
 			
 			</div>		
 		</div>
@@ -93,17 +94,17 @@
 		
 			<!-- ▼メインイメージ -->
 			<div id="main">
-                <div class="ContentFlow" id="div459">
+                
+                    <div class="ContentFlow" id="div459">
                     <div class="loadIndicator"><div class="indicator"></div></div>
                     <div class="flow">
-                        
-                        <img class="item" src="img/slide/s_slide_03.jpg" title="Sponsors"href="index6.html"/>
-                        <img class="item" src="img/slide/s_TopLogo_biomod2014kyutech.png"title="Top"href="index.html"/>
-                        <img class="item" src="img/slide/suzukawa.jpg" title="Introduction"href="index2.html"/>
-                        <img class="item" src="img/slide/s_slide_02.jpg"  title="Design"href="index3.html"/>
-                        <img class="item" src="img/slide/s_slide_02.jpg" title="Experiment" href="index4.html"/>
-                        <img class="item" src="img/slide/s_slide_03.jpg" title="Team"href="index5.html"/>
-                        
+                            <img class="item" src="img/slide/s_slide_03.jpg" title="Sponsors"href="index6.html"/>                        <img class="item" src="img/slide/s_TopLogo_biomod2014kyutech.png"title="Top"href="index.html"/>
+                        <img class="item" src="img/slide/s_slide_02.jpg" title="Introduction & Theory"href="index2.html"/>
+                        <img class="item" src="img/slide/s_slide_02.jpg"  title="Design"href="index3.html"/>                         <img class="item" src="img/slide/s_slide_02.jpg" title="Experiment" href="index4.html"/>
+                         <img class="item" src="img/slide/s_slide_03.jpg" title="Team"href="index5.html"/>
+                    
+                     
+                       
                                             </div>
                     <!-- キャプション -->
                     <div class="globalCaption"></div>
@@ -111,87 +112,230 @@
                     <div class="scrollbar"><div class="slider"></div></div>
                 </div>
          
-                       </div>
-           
-           <div id="main_content">
-            <div id="main_area">
-				<div class="abst_top">
-                    <h2>Membrane Design Group</h2>
-                </div>
-                
-                <div class="abst_top">
-                    <h2>Membrane</h2>
-                </div>
-                
-                <ul class="info clearfix">
-                    <li>
-                        <img src="design_img/Bioanime_2014kyutech_design.gif" width="500" height="320" alt="" /></iframe>
-                    </li>
+            <!--             
+             <div id="slide_img" class="spacegallery">
+                <ul id="slide_img_f">
+                    
+                    <li><img src="img/slide/s_slide_03.jpg" alt=""  /></li>
+                    <li><img src="img/slide/s_slide_02.jpg" alt=""  /></li>
+                    <li><img src="img/slide/s_slide_01.jpg" alt=""  /></li>
+                    <li><img src="img/slide/s_slide_03.jpg" alt=""  /></li>
+                    <li><img src="img/slide/s_slide_02.jpg" alt=""  /></li>
+                    <li><img src="img/slide/s_slide_01.jpg" alt=""  /></li>
+                    <li><img src="img/slide/s_TopLogo_biomod2014kyutech.png" alt=""/></li>
+                    
                 </ul>
+            </div>
+             -->
+            
+            </div>
+            <div id="main_content">
+                <div id="main_area">
+			<div class="abst_top">
+			
+				<h2>membrane as a key element in our device</h2>
+            </div>
+            
+            <div class="experiment_img3_back">
+                <div class="experiment_img3">
+                    <img src="experimet_img/experiment1.png" width="350" height="250" alt="" align="left"/>
+                    <div class="experiment_text3">
+                        <h4>Fig1.&nbsp;Image of membrane</h4>
+                        
+                    </div>
+                </div>
+            </div>
             <div class="abst_text">
             <div class="abst_text1">
-       
+                
+                <p>A technical highlight of our product is to realize an integral controller for regulating a concentration of a specific DNA strand as an output signal to be a desired level by using a series of DNA strand displacement reactions in combination with a membrane.
+                Therefore we attempted to design of osmosis membrane that DNA strand can move.
+            
+            <p/>
             </div>
 			</div>
-            <div class="movie_top">
-				<h2>Membrane as a key element in pur devise</h2>
-              
-			</div>
-	
-                <div class="abst_text1">
-                    <p>A technical highlight of our product is to realize an integral controller for regulating a concentration of a specific DNA strand as an output signal to be a desired level by using a series of DNA strand displacement reactions in combination with a membrane. Therefore we attempted to design of osmosis membrane that DNA strand can move.
-                    <p/>
-  
-			</div>
             
+            <div class="experiment_img1_back">
+            <div class="experiment_img1">
+                <div class="experiment_img_w1">
+                    <img src="design_img/design1.png" width="280" height="230" alt="" align="left"/>
+                    </div>
+                <div class="experiment_text1">
+                    <h4>Fig2.&nbsp;Role of membrane</h4>
+                    
+                </div>
+            </div>
+            </div>
+            
+            <div class="experiment_text1">
+        <br>
+        <p>Fig.2 indicates that flow of a single DNA strand and multi-stranded DNA through a membrane.
+        As shown in Fig.2, a specific single-stranded DNA
+        can permeate membrane since the size of single-stranded DNA is enough to move the pore of membrane. However, the
+        multi-stranded DNA can’t permeate membrane since it is much longer than single-stranded DNA. Because of the membrane, we can regulate a concentration of DNA strand.
         
-            
-            <div class="design_img1">
-                <img src="design_img/Molecule_2014kyutech_design.png" width="350" height="250" alt="" align="left"/>
-            </div>
-                <div class="design_text1">
-                   <p>
-                    Fig.1 indicates that flow of a single DNA strand and multi-stranded DNA through a membrane. As shown in Fig.1, a specific single-stranded DNA can permeate membrane since the size of single-stranded DNA is enough to move the pore of membrane. However, the multi-stranded DNA can’t permeate membrane since it is much longer than single-stranded DNA. Because of the membrane, we can regulate a concentration of DNA strand.
                 <p/>
                 
             </div>
-                
-                <div class="design_img2">
-                    <img src="design_img/Design_dna_2014kyutech_design.png" width="350" height="250" alt="" align="left"/>
-                </div>
-                <div class="design_text2">
-                    <p>
-                    Fig.1 indicates that flow of a single DNA strand and multi-stranded DNA through a membrane. As shown in Fig.1, a specific single-stranded DNA can permeate membrane since the size of single-stranded DNA is enough to move the pore of membrane. However, the multi-stranded DNA can’t permeate membrane since it is much longer than single-stranded DNA. Because of the membrane, we can regulate a concentration of DNA strand.
-                    <p/>
-                    
-                </div>
-                
-                <div class="abst_text1">
-                    <p>
-                    Fig.1 indicates that flow of a single DNA strand and multi-stranded DNA through a membrane. As shown in Fig.1, a specific single-stranded DNA can permeate membrane since the size of single-stranded DNA is enough to move the pore of membrane. However, the multi-stranded DNA can’t permeate membrane since it is much longer than single-stranded DNA. Because of the membrane, we can regulate a concentration of DNA strand.
-                    <p/>
-                    
-                </div>
-                
-                <div style=" argin: 10px 10px 10px 10px; padding: 10px 10px 10px 10px;">
-    
-                    <img src="http://chart.apis.google.com/chart?cht=tx&chl=%5Cdisplaystyle%20%5Ciota(f%2Cz_%7B0%7D)%3D%5Cfrac%7B1%7D%7B2%20%5Cpi%20i%7D%5Coint%5Cfrac%7Bdz%7D%7Bz_%7B0%7D-f(z)%7D" />
+       
+            <div class="abst_top2">
+                <h2>How to design membrane</h2>
+            </div>
+            
+            <div class="experiment_img1r_back">
+                <div class="experiment_img1r">
+                    <div class="experiment_img_w1r">
+                        <img src="design_img/design2.png" width="280" height="230" alt="" align="left"/>
                     </div>
-                
-                <span style="color:#FFFFFF">\begin{align}
-                    \left( \int_0^\infty \frac{\sin x}{\sqrt{x}} dx \right)^2 =
-                    \sum_{k=0}^\infty \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} =
-                    \prod_{k=1}^\infty \frac{4k^2}{4k^2 - 1} = \frac{\pi}{2}
-                    \tag{1}
-                    \end{align}
-                </span>
+                    <div class="experiment_text1r">
+                        <h4>Fig.3.&nbsp;Size of DNA we suppose</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experiment_text1r">
+                <br>
+             
+                 <h3>Size of DNA strand</h3>
+                 <p>First, we have to inquire into a size of DNA strand as a solute
+                that permeates the membrane. We suppose that a DNA strand that
+                is used in a series of reactions for realizing the integral controller
+                has 10-40 bases.
+                Here, for the sake of simplicity a DNA strand is approximated
+                by spherical object with a radius of 3 nm as illustrated in Fig.3
+                 <p/>
                 
             </div>
             
-      
+            <div class="abst_top2">
+                <h2>Design theory of membrane</h2>
+            </div>
+            
+            <div class="abst_text">
+                <div class="abst_text1">
+                    
+                    <p>We used general model called “pore mode” to design membrane. In this model, we assume that DNA strand is hard sphere, pore is cylinder.
+                    <p/>
+                </div>
+			</div>
+         
+         <div class="experiment_img1_back2">
+             <div class="experiment_img12">
+                 <div class="experiment_img_w12">
+                     <img src="design_img/design3.png" width="280" height="230" alt="" align="left"/>
+                 </div>
+                 <div class="experiment_text12">
+                     <h4>Fig4.&nbsp;Property of membrane</h4>
+                     
+                 </div>
+             </div>
+         </div>
+         
+ 
+         
+    
+                 <div class="experiment_img_w1r2">
+                     <img src="design_img/design4.png" width="300" height="430" alt="" align="left"/>
+                 </div>
+                 <div class="experiment_text1r2">
+                     <h4></h4>
+        
+         </div>
+         
+         <div class="experiment_text1r2">
+             <br>
+             <p>We need some formula to determine the structure
+             of the membrane. Transmission phenomenon
+             of osmosis membrane is described following equations
+             
+          
+             <p/>
+             
+         <div class="experiment_math">
+             <span style="color:#FFFFFF">\begin{align}
+             \ R =
+             \frac{ {\rm C}_m-{\rm C}_p}{{\rm C}_m}  =
+             \frac{\sigma[1-exp\bigl\{-{\rm J}_v(1-\sigma)\bigl\}}{1-\sigma exp\bigl\{\frac{-{\rm J}_v(1-\sigma)} {P}\bigl\}}
+             \tag{1}
+             \end{align}
+         </span>
+         
+         <span style="color:#FFFFFF">\begin{align}
+             \ {\rm J}_v =
+             \ {\rm L}_p(\Delta p-\sigma\Delta\Pi)
+             \tag{2}
+             \end{align}
+         </span>
+         
+         <span style="color:#FFFFFF">\begin{align}
+             \ {\rm J}_s =
+             \ P({\rm C}_m-{\rm C}_p)+(1-\sigma)\overline{c} {\rm J}_v
+             \tag{3}
+             \end{align}
+         </span>
+         </div>
+         
+         The key elements of the above transmission equation
+         Relate to following three transmission coefficient.
+         
+           <div class="experiment_math">
+  
+         
+         <span style="color:#FFFFFF">\begin{align}
+             \ {\rm L}_p =
+             \biggl(\frac{rp^2}{8\mu}\biggl)\biggl(\frac{{\rm A}_k}{\Delta x}\biggl)
+             \tag{4}
+             \end{align}
+         </span>
+         
+         <span style="color:#FFFFFF">\begin{align}
+             \ \sigma =
+             \ 1-{\rm S}_F(1+\frac{16}{9}q^2)
+             \tag{5}
+             \end{align}
+         </span>
+         
+         <span style="color:#FFFFFF">\begin{align}
+             \ P =
+             \ D{\rm S}_D\biggl(\frac{Ak}{\Delta x}\biggl)
+             \tag{6}
+             \end{align}
+         </span>
+         </div>
+         The radius of solution is given below expression.
+          <div class="experiment_math">
+              <span style="color:#FFFFFF">\begin{align}
+                  \ {\rm r}_s =
+                  \frac{KT}{6\Pi\mu D}
+                  \tag{7}
+                  \end{align}
+              </span>
+          </div>
+          
+          We can design membrane for using these expressions.
+          
+          </div>
+         
+         <div class="abst_text">
+             <div class="abst_text1">
+                 
+                 <p>
+                 However, in our design, we don’t consider the flux of solvent because we’d like to see the …….
+                 Therefore, we lead to equation by our assumption.
+                 <p/>
+                  <a HREF="index4.html">next！</a>
+             </div>
+         </div>
+         
+        
+         
+				</div>
+	</div>
+    
     <div id="footer">
 		<address></address>
     </div>
-</div>
+    </div>
 </body>
 </html>
