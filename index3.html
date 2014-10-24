@@ -155,11 +155,11 @@
 				<h2>1.&nbsp;&nbsp;membrane as a key element in our device</h2>
             </div>
             
-            <div class="experiment_img3_back">
-                <div class="experiment_img3">
-                    <img src="design_img/Bioanime_2014kyutech_design.gif" width="350" height="250" alt="" align="left"/>
-                    <div class="experiment_text3">
-                        <h4>Fig1.&nbsp;Image of membrane</h4>
+            <div class="experiment_imgbig_back">
+                <div class="experiment_imgbig">
+                    <img src="design_img/Bioanime_2014kyutech_design.gif" width="540" height="350" alt="" align="left"/>
+                    <div class="experiment_textbig">
+                        <h4>Fig1.&nbsp;Image of membrane (red ball, a molecule; blue plane, a permeable membrane)</h4>
                         
                     </div>
                 </div>
@@ -168,7 +168,6 @@
             <div class="abst_text1">
                 
             <p>A technical highlight of our product is to realize an integral controller for regulating a concentration of a specific DNA strand as an output signal to a desired level by using a series of DNA strand displacement reactions in combination with a permeable membrane (Fig. 1). In what follows, we explain a design method of permeable membrane that a DNA strand can transmit with a desired transmission rate.
-            <br><br>Fig. 2 illustrates a flow of a single-stranded DNA and double-stranded DNA through a membrane. The single-stranded DNA can permeate the membrane because its size is smaller than that of the pore whereas the double-stranded DNA, which is bigger than that of the pore, cannot permeate the membrane. Although a condition whether a molecule can/cannot transmit the membrane is simply decided by the size of pore, we have to establish the design theory for realizing a desired transmission rate on the membrane, which is known to be a challenging task, but we will try it below.            
             <p/>
             </div>
 			</div>
@@ -178,63 +177,61 @@
                 <div class="experiment_img_w1">
                     <img src="design_img/design1.png" width="280" height="230" alt="" align="left"/>
                     </div>
-                <div class="experiment_text1">
-                    <h4>Fig2.&nbsp;Role of membrane</h4>
+                <div class="experiment_h4">
+                    <h4>Fig2.&nbsp; A flow of single-stranded and double-stranded DNAs through the membrane (blue, a single-stranded DNA; green, a double-stranded DNA; fresh-colored division, a permeable membrane with some pores)</h4>
                     
                 </div>
             </div>
             </div>
             
             <div class="experiment_text1">
-        <br>
-        <p>Fig.2 indicates that flow of a single DNA strand and multi-stranded DNA through a membrane.
-        As shown in Fig.2, a specific single-stranded DNA
-        can permeate membrane since the size of single-stranded DNA is enough to move the pore of membrane. However, the
-        multi-stranded DNA can’t permeate membrane since it is much longer than single-stranded DNA. Because of the membrane, we can regulate a concentration of DNA strand.
-        
+       
+        <p>Fig. 2 illustrates a flow of a single-stranded DNA and double-stranded DNA through a membrane. The single-stranded DNA can permeate the membrane because its size is smaller than that of the pore whereas the double-stranded DNA, which is bigger than that of the pore, cannot permeate the membrane. Although a condition whether a molecule can/cannot transmit the membrane is simply decided by the size of pore, we have to establish the design theory for realizing a desired transmission rate on the membrane, which is known to be a challenging task, but we will try it below.
                 <p/>
                 
             </div>
-       
-            <div class="abst_top2">
-                <h2>How to design membrane</h2>
+      
+            <div class="abst_top">
+                <h2>2.&nbsp;How to design membrane</h2>
+            </div>
+            <div class="abst_text">
+                <div class="abst_text1">
+                   
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The objective in this design is to decide a structural specification of the permeate membrane (a size of pore [nm], thickness of the membrane [nm], and a open area ration [-]) when a desired transmission rate [1/s] is given.
+                </div>
             </div>
             
-            <div class="experiment_img1r_back">
+            <div class="abst_sub">
+                <h2>2.1&nbsp;Size of DNA strand</h2>
+            </div>            <div class="experiment_img1r_back">
                 <div class="experiment_img1r">
                     <div class="experiment_img_w1r">
                         <img src="design_img/design2.png" width="280" height="230" alt="" align="left"/>
                     </div>
-                    <div class="experiment_text1r">
-                        <h4>Fig.3.&nbsp;Size of DNA we suppose</h4>
+                    <div class="experiment_h4r">
+                        <h4>Fig.3.&nbsp; Assumption on the size of DNA strand in our design theory (left, a DNA strand; right, its expediential shape in our theory)</h4>
                         
                     </div>
                 </div>
             </div>
             
             <div class="experiment_text1r">
-                <br>
+         
              
-                 <h3>Size of DNA strand</h3>
-                 <p>First, we have to inquire into a size of DNA strand as a solute
-                that permeates the membrane. We suppose that a DNA strand that
-                is used in a series of reactions for realizing the integral controller
-                has 10-40 bases.
-                Here, for the sake of simplicity a DNA strand is approximated
-                by spherical object with a radius of 3 nm as illustrated in Fig.3
+             
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, we consider a size of a DNA strand as a solute that permeates the membrane. For the sake of simplicity, we suppose that the shape of a DNA strand is ball-like (Fig. 3). The assumption would be valid if we estimate a larger size for the ball. For example, 3 [nm] in diameter would be a reasonable choice for a short stranded DNA. If you chose another value for the diameter, you only have to use the value in the following calculation.
                  <p/>
                 
             </div>
             
-            <div class="abst_top2">
-                <h2>Design theory of membrane</h2>
+            <div class="abst_sub">
+                <h2>2.2&nbsp;Design theory for membrane with a desired transmission rate</h2>
             </div>
             
             <div class="abst_text">
                 <div class="abst_text1">
                     
-                    <p>We used general model called “pore mode” to design membrane. In this model, we assume that DNA strand is hard sphere, pore is cylinder.
-                    <p/>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We employed a general model called “pore mode” to derive our design theory. In this model, a solute is considered to be a hard ball, and a pore as a route in the membrane cylinder (Fig. 4). All parameters are summarized in the Table. 1.                    <p/>
                 </div>
 			</div>
          
@@ -244,29 +241,37 @@
                      <img src="design_img/design3.png" width="280" height="230" alt="" align="left"/>
                  </div>
                  <div class="experiment_text12">
-                     <h4>Fig4.&nbsp;Property of membrane</h4>
+                     <h4>Fig4.&nbsp;Assumption and the parameters in the pore model.</h4>
                      
                  </div>
              </div>
          </div>
          
- 
+         <div class="abst_text">
+             <div class="abst_text1">
+                 
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To make a membrane with a desired transmission rata [1/s], we need the structural specification such as a size of pore [nm], thickness of the membrane [nm], and a open area ration [-]. However, the relation between the macroscopic rate and the microscopic parameters is generally unclear. We propose a solution as follows:                  <p/>
+             </div>
+         </div>
          
-    
-                 <div class="experiment_img_w1r2">
-                     <img src="design_img/design4.png" width="300" height="430" alt="" align="left"/>
-                     <h4>Table1.&nbsp;Parameter</h4>
+         <div class="experiment_img_w1r2ba">
+             <h4>Table1.&nbsp;Parametern the pore model </h4>
+    <div class="experiment_img_w1r2">
+                  
+                  
+                  <img src="design_img/design4.png" width="300" height="430" alt="" align="left"/>
+                   
                  </div>
-                 <div class="experiment_text1r2">
+     </div>
+         <div class="experiment_text1r2">
                      
         
          </div>
          
          <div class="experiment_text1r2">
-             <br>
-             <p>We need some formula to determine the structure
-             of the membrane. Transmission phenomenon
-             of osmosis membrane is described following equations
+            
+             <p>Transmission phenomenon of permeate membrane
+             is characterized by the following equations regarding flux
              
           
              <p/>
@@ -294,9 +299,9 @@
              \end{align}
          </span>
          </div>
-         
-         The key elements of the above transmission equation
-         Relate to following three transmission coefficient.
+         The relation between the volume flux and the structural
+         parameters is tied by the following three parameters.
+   
          
            <div class="experiment_math">
   
@@ -322,8 +327,8 @@
              \end{align}
          </span>
          </div>
-         The radius of solution is given below expression.
-          <div class="experiment_math">
+         Where the radius of solution is given by
+         <div class="experiment_math">
               <span style="color:#FFFFFF">\begin{align}
                   \ {\rm r}_s =
                   \frac{KT}{6\Pi\mu D}
@@ -331,8 +336,7 @@
                   \end{align}
               </span>
           </div>
-          
-          We can design membrane for using these expressions.
+    
           
           </div>
          
@@ -340,132 +344,102 @@
              <div class="abst_text1">
                  
                  <p>
-                 However, in our design, we don’t consider the flux of solvent because we’d like to see the …….
-                 Therefore, we lead to equation by our assumption.
-                 <p/>
+                Because no outside pressure is added in the system, we can assume that the volume flux of solvent is ignorable (Jv=0), that is the permeate phenomenon occurs by the concentration difference between the cross-border rooms. By noticing that the volume flux Jv is described by a transmission rate and the thickness of membrane, we obtain the following master equation for the design.
+                
+                <p/>
                  
              </div>
          </div>
          
+         <div class="experiment_math">
+             <span style="color:#FFFFFF">\begin{align}
+                 \ {\rm r}_s =
+                 \frac{KT}{6\Pi\mu D}
+                 \tag{7}
+                 \end{align}
+             </span>
+         </div>
+         
+         <div class="abst_text">
+             <div class="abst_text1">
+                 See Fig. 5 for the detailed calculation. Although (8) is indeterminate equation with three unknown parameters in a equation, we can computationally solve it. This is quite beneficial for a designer since we can choose a convenient combination according to easier manufacturing.
+         
+                </div>
+            </div>
+         
+         <div class="experiment_imgbig_back">
+             <div class="experiment_imgbig">
+                 <img src="design_img/design5.png" width="540" height="365" alt="" align="left"/>
+                 <div class="experiment_textbig">
+                     <h4>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Fig5.&nbsp; Detailed calculations for the master equation (8)</h4>
+                     
+                 </div>
+             </div>
+         </div>
+         
+         
+         
          <div class="abst_top">
-             <h2>Verification of Design</h2>
+             <h2>3.&nbsp;Validation with in-silico experiment</h2>
          </div>
         
         <div class="abst_text">
             <div class="abst_text1">
-                <h2>Assumption</h2>
-                    <br>
-                    <p>
-                    We lead to following expression with our assumption by using above equations.</p>
-                    <span style="color:#FFFFFF">\begin{align}
-                        \ k\cdot\Delta x =
-                        \frac{KT}{6\Pi\mu {\rm r}_s}\cdot\biggl(1-\frac{{\rm r}_p}{{\rm r}_s}\biggl)^2\cdot\biggl(\frac{{\rm A}_k}{\Delta x}\biggl)
-                        \tag{8}
-                        \end{align}
-                    </span>
-                    <p> When you’d like to see the detail of above calculate process,  __________
-                    We determined proper structure of membrane by using expression (8).
+                 <p>                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this section, we will show a validation result for our method by using in-silico experiment. If a time-course data on a concentration change in the system, which is calculated with only a transmission rate k [1/s] based on chemical kinetics (ordinary differential equation-based simulation), coincide with that with only three structural parameters, a size of pore [nm], thickness of the membrane [nm], and a open area ration [-], based on particle simulation (stochastic simulation).
+             
                 <p/>
             </div>
         </div>
         
-        <div class="experiment_img1r_back">
-            <div class="experiment_img1r">
-                <div class="experiment_img_w1r">
-                    <img src="design_img/design2.png" width="280" height="230" alt="" align="left"/>
-                </div>
-                <div class="experiment_text1r">
-                    <h4>Fig.3.&nbsp;Size of DNA we suppose</h4>
-                    
-                </div>
-            </div>
-        </div>
         
-        <div class="experiment_text1r3">
-              
-        <div class="abst_text">
-            <div class="abst_text1">
-                <h2>Silico Experiment</h2>
-                <br>
-                <p>
-                We verified that our design method is right by silico experiment.
-                We showed following equation in section of “Introduction”
-                </p>
-                <span style="color:#FFFFFF">\begin{align}
-                    V =kx2
-                    \tag{?}
-                    \end{align}
-                </span>
-                <p> Where x2 is a concentration of DNA before it permeates membrane,
-                X4 is a concentration of DNA after it permeates membrane, k is
-                a permeated coefficient.
-                We can solve parameter of membrane such as ∆x, r_(p ) and A_k by using
-                permeated coefficient and expression (8).
-                <p/>
-            </div>
-        </div>
-        </div>
         
         <div class="abst_text">
             <div class="abst_text1">
                 <p>
-              Therefore, we assumed that value of permeated coefficient k, and we simulated concentration change of x4 by using computer.                <p/>
+             We showed the following equation based on chemical kinetics in the “Theory” section.<br>
+             
+             <span style="color:#FFFFFF">\begin{align}
+                 \ {\rm r}_s =
+                 \frac{KT}{6\Pi\mu D}
+                 \tag{7}
+                 \end{align}
+             </span>
+             
+             
+             
+             where x2 is a concentration of DNA strand before permeation, X4 is a concentration after permeation, k is a transmission coefficient as shown in Fig. 6. Fig. 7 shows two kinds of time-course curves from the macroscopic ordinary differential equation-based simulation with only a transmission coefficient k and the microscopic stochastic particle simulation with only three structural parameters, indication that they have a similar time-course shape. Therefore, we conclude that our design method is theoretically correct of which validity is supported by in-silico experiments.             <p/>
             </div>
         </div>
         
+        
+        
+        
+ 
         <div class="experiment_img1_back3">
             <div class="experiment_img13">
                 <div class="experiment_img_w13">
                     <img src="design_img/Bioanime_2014kyutech_design.gif" width="500" height="300" alt="" align="left"/>
                 </div>
                 <div class="experiment_text13">
-                    <h4>Fig5.&nbsp;Simulation of concentration change by Matlab calculation</h4>
+                    
+                    <h4>Fig6.&nbsp;concentration x2, x4 and transmission coffecient k</h4>
                     
                 </div>
             </div>
         </div>
         
-        <div class="abst_text">
-            <div class="abst_text1">
-                <p>Next, we show the particle simulation with threeparameter ∆x,r_(p ) and A_k we solved by above simulation.                               <p/>
-            </div>
-        </div>
-        
-        <div class="experiment_img1_back3">
+        <div class="experiment_img1_back4">
             <div class="experiment_img13">
                 <div class="experiment_img_w13">
                     <img src="design_img/Bioanime_2014kyutech_design.gif" width="500" height="300" alt="" align="left"/>
                 </div>
-                <div class="experiment_text1">
-                    <h4 class="fig6s">Fig6.&nbsp;Concentration change by particle simulation</h4>
+                <div class="experiment_text14">
+                    <h4>Fig7.&nbsp;Comparison of two kinds of time-course curves regarding a concentration change of a molecule after permeation (red, ODE simulation; blue, particle simulation). </h4>
                     
                 </div>
             </div>
         </div>
-        
-        
-        <div class="abst_text">
-            <div class="abst_text1">
-                <p>We compared both of simulations.(Fig7)<p/>
-            </div>
-        </div>
-        <div class="experiment_img1_back3">
-            <div class="experiment_img13">
-                <div class="experiment_img_w13">
-                    <img src="design_img/Bioanime_2014kyutech_design.gif" width="500" height="300" alt="" align="left"/>
-                </div>
-                <div class="experiment_text13">
-                    <h4>Fig7.&nbsp;Simulation of concentration change by Matlab calculation</h4>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="abst_text">
-            <div class="abst_text1">
-                <p>As shown in Fig7, we conclude that we can determine proper membrane in our design method.<p/>
-            </div>
-        </div>
+     
         
         <div class="abst_text">
             <div class="abst_text1">

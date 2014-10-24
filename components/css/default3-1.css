@@ -168,7 +168,7 @@ margin:5px 10px 0px 25px;
 	clear:both;
 	width:840px;
 	height:35px;
-	margin-top:20px;
+	margin:10px 0px 10px 0px;
 	background:url(../img/bg_tit.png) no-repeat;
 	color:#FFFFFF;
 }
@@ -179,6 +179,23 @@ margin:5px 10px 0px 25px;
 	font-size:24px;
 	font-weight:bold;
 	line-height:1.5em;
+}
+.abst_sub {
+    clear:both;
+    width:840px;
+    height:35px;
+    margin-top:0px;
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+.abst_sub h2 {
+    width:10000px;
+    padding:0px 0 0 10px;
+    float:left;
+    font-size:24px;
+    font-weight:bold;
+    line-height:1.5em;
+    text-decoration: underline;
 }
 .abst_top2 {
 	clear:both;
@@ -309,11 +326,11 @@ margin:5px 10px 0px 25px;
 
 .experiment_img1_back{
 width:370px;
-height:290px;
+height:340px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:left;
-margin:10px 0px 20px 10px;
+margin:0px 0px 20px 10px;
    }
 
 .experiment_img1 {
@@ -330,11 +347,14 @@ margin:3px 3px 3px 3px;
 background-Color:#FFFFFF;
           }
 
-.experiment_img1 h4{
-
-margin:2px 0px 0px 55px;
-
-                   }
+.experiment_h4{
+    font-size:14px;
+    width:360px;
+    float:left;
+    margin:2px 0px 0px 0px;
+    line-height:1.2em;
+     Color:#FFFFFF
+}
 .experiment_text1 {
     margin:0px 10px 0px 20px;
     width:400px;
@@ -344,16 +364,26 @@ margin:2px 0px 0px 55px;
     Color:#FFFFFF
 
              }
-             
+
+.experiment_h4r{
+    font-size:14px;
+    width:460px;
+    float:right;
+    margin:2px 0px 0px 0px;
+    line-height:1.2em;
+    Color:#FFFFFF
+}
+
+
 
 .experiment_img1r_back{
 width:370px;
-height:290px;
+height:315px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:right;
 
-margin:20px 10px 20px 0px;
+margin:10px 10px 20px 0px;
    }
 .experiment_img1r {
 
@@ -376,7 +406,7 @@ margin:2px 0px 0px 120px;
                    }
 
 .experiment_text1r {
-    margin:0px 20px 0px 0px;
+    margin:10px 20px 0px 0px;
     width:400px;
     float:right;
     font-size:16px;
@@ -400,17 +430,34 @@ margin:10px;
  float:right;
 
           }
+
 .experiment_img_w1r2 {
 width:293px;
 height:415px;
-margin:100px 0px 3px 3px;
+margin:0px 25px 3px 0px;
  float:right;
 background-Color:#FFFFFF;
           }
 
+.experiment_img_w1r2ba {
+    
+    margin:50px 0px 0px 0px;
+    float:right;
+    Color:#FFFFFF;
+    width:300px;
+    
+}
+.experiment_img_w1r2ba h4{
+      float:right;
+      width:300px;
+    margin:0px 20px 0px 0px;
+    padding:0px 0px 0px 0px;
+
+
+}
 .experiment_img1r2 h4{
 
-margin:2px 0px 0px 120px;
+margin:2px 0px 0px 0px;
 
                    }
 
@@ -442,7 +489,7 @@ margin:2px 0px 0px 120px;
 
 .experiment_img1_back2{
 clear:both;
-width:370px;
+width:380px;
 height:290px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
@@ -457,7 +504,7 @@ margin:10px;
 
           }
 .experiment_img_w12 {
-width:343px;
+width:355px;
 height:240px;
 margin:12px 3px 3px 3px;
  float:right;
@@ -465,10 +512,12 @@ margin:12px 3px 3px 3px;
           }
 
 .experiment_img12 h4{
-
-margin:2px 0px 0px 55px;
-
-                   }
+    width:350px;
+    float:left;
+    font-size:14px;
+    margin:2px 0px 0px 0px;
+ line-height:1.2em;
+}
 .experiment_text12 {
     margin:0px 10px 0px 20px;
     width:400px;
@@ -628,8 +677,15 @@ background-repeat: repeat;
 
 margin:10px 0px 20px 110px;
    }
-
-.experiment_img13 {
+.experiment_img1_back4{
+    clear:both;
+    width:570px;
+    height:380px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    
+    margin:10px 0px 20px 110px;
+}.experiment_img13 {
 
 margin:10px;
 
@@ -649,18 +705,60 @@ margin:2px 0px 0px 10px;
 
                    }
 .experiment_text13 {
-    margin:0px 0px 0px 0px;
+    margin:5px 0px 0px 50px;
     width:600px;
     float:left;
-    font-size:16px;
-    line-height:1.6em;
+    font-size:14px;
+    line-height:1.2em;
     Color:#FFFFFF
 
              }
+.experiment_text14 {
+    margin:10px 0px 0px 20px;
+   height:360px
+   float:left;
+    font-size:14px;
+    line-height:1.2em;
+    Color:#FFFFFF
+    
+}
+
 .fig6s{
 width:600px;
 padding:0px 10px 0px 25px;
 }
+
+.experiment_imgbig_back{
+    width:570px;
+    height:415px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    clear:both;
+    margin:10px 50px 20px 100px;
+}
+.experiment_imgbig {
+    
+    margin:12px 0px 10px 15px;
+    
+    
+}
+.experiment_imgbig h4{
+    font-size:14px;
+      width:600px;
+      margin:5px 0px 0px 0px;
+    
+}
+.experiment_textbig {
+    margin:0px 0px 0px 0px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}
+
+
 /* クリアフィックスハック */
 .clearfix:after { 
 	content:"";
