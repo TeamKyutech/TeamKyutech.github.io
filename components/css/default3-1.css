@@ -49,12 +49,14 @@ a img {
 
 }
 #side h1 {
-	width:180px;
+	width:220px;
 	margin:20px auto 0 auto;
     color:#CCCCCC;    
 }
-
-
+#side_img{
+    margin:10px 0px 0px 33px;
+    
+}
 
 #side .copy {
 	width:180px;
