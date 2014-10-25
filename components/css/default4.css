@@ -167,6 +167,25 @@ margin:5px 10px 0px 25px;
 	margin-top:10px;
 	text-align:right;
 }
+.abst_sub {
+    clear:both;
+    width:500px;
+    height:35px;
+    margin-top:0px;
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+.abst_sub h2 {
+    width:500px;
+    padding:0px 0 0 10px;
+    float:left;
+    font-size:24px;
+    font-weight:bold;
+    line-height:1.5em;
+    text-decoration: underline;
+}
+
+
 .abst_top {
 	clear:both;
 	width:840px;
@@ -296,7 +315,7 @@ margin:5px 10px 0px 25px;
 }
 .experiment_img1_back{
 width:370px;
-height:300px;
+height:310px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:left;
@@ -312,9 +331,26 @@ margin:10px;
          }
 .experiment_img1 h4{
 
-margin:10px 0px 0px 20px;
+margin:10px 0px 0px 0px;
 
          }
+.experiment_text1sub{
+    margin:0px 0px 10px 20px;
+    width:320px;
+    float:left;
+    font-size:14px;
+    line-height:1.2em;
+    Color:#FFFFFF
+}
+
+.experiment_text2sub{
+    margin:5px 0px 10px 0px;
+    width:320px;
+    float:left;
+    font-size:14px;
+    line-height:1.2em;
+    Color:#FFFFFF
+}
 .experiment_text1 {
     margin:0px 0px 0px 20px;
     width:420px;
@@ -326,12 +362,12 @@ margin:10px 0px 0px 20px;
 
 .experiment_img2_back{
 width:370px;
-height:300px;
+height:310px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:left;
  clear:both;
- margin:10px 0px 10px 0px;
+ margin:10px 0px 20px 0px;
    }
 .experiment_img2 {
 
@@ -386,7 +422,7 @@ margin:10px 0px 0px 60px;
         
 .experiment_img4_back{
 width:370px;
-height:300px;
+height:270px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:left;
@@ -416,7 +452,7 @@ margin:10px 0px 0px 55px;
         
 .experiment_img5_back{
 width:370px;
-height:300px;
+height:270px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:left;
@@ -507,9 +543,31 @@ margin:2px 0px 0px 40px;
     clear:both;
     margin:10px 0px 20px 150px;
 }
+.experiment_imgbig_back2{
+    width:520px;
+    height:410px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    clear:both;
+    margin:10px 0px 20px 150px;
+}.experiment_img1_back123{
+    width:520px;
+    height:390px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    clear:both;
+    margin:10px 0px 20px 150px;
+}
+
+experiment_img123{
+    margin:10px 100px 20px 100px;
+}
+
 .experiment_imgbig {
     
-    margin:20px;
+    margin:10px 10px;
     
     
 }
@@ -520,14 +578,22 @@ margin:2px 0px 0px 40px;
 }
 .experiment_textbig {
     margin:0px 0px 0px 40px;
-    width:420px;
+    width:500px;
     float:left;
     font-size:16px;
     line-height:1.6em;
     Color:#FFFFFF
 }
-
-/* クリアフィックスハック */
+.experiment_textbig2 {
+    font-size:16px;
+    line-height:1.6em;
+    margin:0px 0px 0px 0px;
+    width:500px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}/* クリアフィックスハック */
 .clearfix:after { 
 	content:"";
     display:block;
