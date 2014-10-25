@@ -288,7 +288,7 @@ margin:5px 10px 0px 25px;
 .experiment_img1_back2{
     clear:both;
     width:380px;
-    height:290px;
+    height:320px;
     background-repeat: repeat;
     background:url(../img/bg_tit.png);
     
@@ -328,8 +328,8 @@ margin:5px 10px 0px 25px;
 
 .experiment_img1_back3{
     clear:both;
-    width:380px;
-    height:265px;
+    width:405px;
+    height:280px;
     background-repeat: repeat;
     background:url(../img/bg_tit.png);
     
@@ -349,8 +349,13 @@ margin:5px 10px 0px 25px;
     float:right;
     
 }
-
-.experiment_img13 h4{
+.experiment_img_w132 {
+    width:355px;
+    height:200px;
+    margin:12px 55px 15px 10px;
+    float:right;
+    
+}.experiment_img13 h4{
     width:350px;
 
     font-size:14px;
@@ -516,11 +521,19 @@ margin:5px 10px 0px 25px;
 }
 .experiment_img_w16 {
     width:360px;
-    height:230px;
+    height:260px;
     margin:12px 0px 0px 0px;
     float:right;
     background:#FFFFFF;
 }
+.experiment_img_w162 {
+ 
+ 
+    margin:0px 0px 0px 5px;
+
+
+}
+
 .experiment_text16 {
     margin:0px 0px 0px 0px;
     width:360px;
@@ -609,6 +622,12 @@ line-height:1.2em;
  padding-bottom:0px 0px 0px 0px;
     Color:#FFFFFF
 }
+
+.experiment_img_w15_img{
+    
+    padding:20px 0px 0px 0px;
+}
+
 #footer {
 	clear:both;
 	height:80px;

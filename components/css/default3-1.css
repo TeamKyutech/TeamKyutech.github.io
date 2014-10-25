@@ -24,6 +24,10 @@ a img {
 	border:none;
 }
 
+#space{
+     margin:10px 0px 0px 0px;
+}
+
 
 #wrap {
 	width:1100px;
@@ -326,7 +330,7 @@ margin:5px 10px 0px 25px;
 
 .experiment_img1_back{
 width:370px;
-height:340px;
+height:375px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 float:left;
@@ -335,7 +339,7 @@ margin:0px 0px 20px 10px;
 
 .experiment_img1 {
 
-margin:10px;
+margin:15px 15px ;
  float:left;
 
           }
@@ -351,7 +355,7 @@ background-Color:#FFFFFF;
     font-size:14px;
     width:360px;
     float:left;
-    margin:2px 0px 0px 0px;
+    margin:0px 0px 0px 10px;
     line-height:1.2em;
      Color:#FFFFFF
 }
@@ -490,7 +494,7 @@ margin:2px 0px 0px 0px;
 .experiment_img1_back2{
 clear:both;
 width:380px;
-height:290px;
+height:355px;
 background-repeat: repeat;
  background:url(../img/bg_tit.png);
 
@@ -505,7 +509,7 @@ margin:10px;
           }
 .experiment_img_w12 {
 width:355px;
-height:240px;
+height:300px;
 margin:12px 3px 3px 3px;
  float:right;
  background-Color:#FFFFFF;
@@ -519,7 +523,7 @@ margin:12px 3px 3px 3px;
  line-height:1.2em;
 }
 .experiment_text12 {
-    margin:0px 10px 0px 20px;
+    margin:0px 10px 0px 15px;
     width:400px;
     float:left;
     font-size:16px;
