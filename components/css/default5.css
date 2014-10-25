@@ -23,6 +23,9 @@ a:active {
 a img {
 	border:none;
 }
+#space{
+    margin:10px 0px 0px 0px;
+}
 #side_img{
     margin:10px 0px 0px 33px;
     

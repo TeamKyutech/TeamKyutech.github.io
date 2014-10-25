@@ -454,7 +454,7 @@ background-Color:#FFFFFF;
 .experiment_img_w1r2ba h4{
       float:right;
       width:300px;
-    margin:0px 20px 0px 0px;
+      font-size:14px;    margin:0px 20px 0px 0px;
     padding:0px 0px 0px 0px;
 
 
@@ -702,7 +702,11 @@ margin:15px 10px 3px 3px;
  float:right;
  background-Color:#FFFFFF;
           }
-
+.experiment_img_w132 {
+ 
+    margin:15px 50px 3px 0px;
+    float:right;
+ }
 .experiment_img13 h4{
 
 margin:2px 0px 0px 10px;

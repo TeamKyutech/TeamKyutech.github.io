@@ -23,8 +23,9 @@ a:active {
 a img {
 	border:none;
 }
-
-
+#space{
+    margin:10px 0px 0px 0px;
+}
 #wrap {
 	width:1100px;
 	margin:0 auto;
