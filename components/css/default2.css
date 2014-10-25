@@ -24,6 +24,24 @@ a:active {
 a img {
 	border:none;
 }
+.abst_sub {
+    clear:both;
+    width:500px;
+    height:35px;
+    margin-top:0px;
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+.abst_sub h2 {
+    width:500px;
+    padding:0px 0 0 10px;
+    float:left;
+    font-size:24px;
+    font-weight:bold;
+    line-height:1.5em;
+    text-decoration: underline;
+}
+
 
 #wrap {
 	width:1100px;
@@ -181,7 +199,7 @@ margin:5px 10px 0px 25px;
 	color:#FFFFFF;
 }
 .abst_top h2 {
-	width:360px;
+	width:600px;
 	padding:0px 0 0 10px;
 	float:left;
 	font-size:24px;
@@ -191,6 +209,7 @@ margin:5px 10px 0px 25px;
 
 
 .abst_text1 {
+    clear:both;
     margin:10px 0px 20px 0px;
   font-size:16px;
     line-height:1.6em;
@@ -370,7 +389,7 @@ float:left;
 .experiment_img1_back4{
     clear:both;
     width:570px;
-    height:380px;
+    height:420px;
     background-repeat: repeat;
     background:url(../img/bg_tit.png);
     
@@ -404,7 +423,7 @@ float:left;
     
 }
 .experiment_text14 {
-    margin:10px 0px 0px 20px;
+    margin:20px 0px 0px 20px;
     height:360px
     float:left;
     font-size:14px;
@@ -413,8 +432,95 @@ float:left;
     
 }
 
+}.experiment_img4_back{
+    width:370px;
+    height:300px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    clear:both;
+    margin:0px 0px 10px 0px;
+}
+.experiment_img4 {
+    
+    margin:10px;
+    float:left;
+    
+}
 
+.experiment_img4 h4{
+    
+    margin:10px 0px 0px 55px;
+    
+}
+.experiment_text4 {
+    margin:0px 0px 0px 20px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}
 
+.experiment_img5_back{
+    width:370px;
+    height:300px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    clear:both;
+    margin:0px 0px 20px 0px;
+}
+.experiment_img5 {
+    
+    margin:10px;
+    float:left;
+    
+}
+
+.experiment_img5 h4{
+    
+    margin:10px 0px 0px 55px;
+    
+}
+.experiment_text5 {
+    margin:0px 0px 0px 20px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}
+
+.experiment_imgbig_back{
+    width:570px;
+    height:415px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    clear:both;
+    margin:10px 50px 20px 100px;
+}
+.experiment_imgbig {
+    
+    margin:12px 0px 10px 15px;
+    
+    
+}
+.experiment_imgbig h4{
+    font-size:14px;
+    width:600px;
+    margin:5px 0px 0px 0px;
+    
+}
+.experiment_textbig {
+    margin:0px 0px 0px 0px;
+    width:420px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}
 
 #footer {
 	clear:both;

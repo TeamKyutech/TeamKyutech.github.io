@@ -702,7 +702,7 @@ ContentFlow.prototype = {
         circularFlow: true,
         verticalFlow: false,
         visibleItems: -1,
-        endOpacity: 1,
+        endOpacity: 0,
         startItem:  "center",
         scrollInFrom: "pre",
 
@@ -2282,7 +2282,7 @@ ContentFlow.prototype = {
                     else {
                         item.content.style.filter = "progid:DXImageTransform.Microsoft.BasicImage(opacity="+item.opacity+")";
                     }
-                    if (item.reflection) item.reflection.style.filter = item.reflection.filterString+"progid:DXImageTransform.Microsoft.BasicImage(opacity="+item.opacity+")"; 
+                    if (item.reflection) item.reflection.style.filter = item.reflection.filterString+"progid:DXImageTransform.Microsoft.BasicImage(opacity="+item.opacity+")";
                 }
             }
             else if (ContentFlowGlobal.Browser.IE) {

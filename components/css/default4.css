@@ -343,6 +343,15 @@ margin:10px 0px 0px 0px;
     Color:#FFFFFF
 }
 
+.experiment_text1sube{
+    margin:5px 0px 10px 20px;
+    width:340px;
+    float:left;
+    font-size:14px;
+    line-height:1.2em;
+    Color:#FFFFFF
+}
+
 .experiment_text2sub{
     margin:5px 0px 10px 0px;
     width:320px;
@@ -506,6 +515,30 @@ margin:10px;
 
 
           }
+.experiment_img12 {
+    
+    margin:10px;
+    
+    
+}
+.experiment_img1_back2e{
+    clear:both;
+    width:370px;
+    height:300px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    
+    margin:0px 0px 20px 200px;
+}
+
+.experiment_img12e {
+    padding-top:10px;
+    margin:20px 10px 0px 10px;
+    
+    
+}
+
+
 .experiment_img_w12 {
 width:343px;
 height:240px;
