@@ -343,6 +343,12 @@ margin:15px 15px ;
  float:left;
 
           }
+.experiment_img1ee {
+    
+    margin:0px 15px 0px 15px;
+    float:left;
+    
+}
 .experiment_img_w1 {
 width:343px;
 height:240px;
@@ -729,6 +735,22 @@ margin:2px 0px 0px 10px;
     line-height:1.2em;
     Color:#FFFFFF
     
+}
+.experiment_img1_backe{
+    width:450px;
+    height:430px;
+    background-repeat: repeat;
+    background:url(../img/bg_tit.png);
+    float:left;
+    margin:0px 0px 20px 10px;
+}
+
+.experiment_img_w1r3 {
+    width:293px;
+    height:230px;
+    margin:0px 25px 3px 0px;
+    float:right;
+    background-Color:#FFFFFF;
 }
 
 .fig6s{
