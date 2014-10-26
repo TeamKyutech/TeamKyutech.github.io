@@ -217,6 +217,16 @@ margin:5px 10px 0px 25px;
     padding-bottom:0px;
     Color:#FFFFFF
         }
+
+
+.abst_text1e {
+    clear:both;
+    margin:10px 0px 0px 0px;
+    font-size:16px;
+    line-height:1.6em;
+  
+    Color:#FFFFFF
+}
 .movie_top {
 	clear:both;
 	width:840px;
@@ -603,6 +613,57 @@ float:left;
     line-height:1.6em;
     Color:#FFFFFF
 }
+
+
+
+.experiment_imgbig_back24{
+
+
+    float:left;
+    clear:both;
+    margin:0px 0px 20px 0px;
+}.experiment_imgbig4 {
+    
+    margin:10px 10px;
+    
+    
+}
+.experiment_textbig4 {
+    font-size:16px;
+    line-height:1.6em;
+    margin:0px 0px 0px 0px;
+    width:0px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}
+.experiment_imgbig_back25{
+
+
+    
+    float:right;
+ 
+    margin:0px 0px 20px 0px;
+}
+
+.experiment_imgbig5 {
+    
+    margin:10px 10px;
+    
+    
+}
+.experiment_textbig5 {
+    font-size:16px;
+    line-height:1.6em;
+    margin:10px 0px 0px 0px;
+    width:0px;
+    float:left;
+    font-size:16px;
+    line-height:1.6em;
+    Color:#FFFFFF
+}
+
 .experiment_img_w1r3 {
     width:300px;
     height:250px;
@@ -614,6 +675,7 @@ float:left;
  
     margin:10px ;
 }
+
 #footer {
 	clear:both;
 	height:80px;
